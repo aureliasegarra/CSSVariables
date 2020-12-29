@@ -1,20 +1,37 @@
+
+/* CSS VARIABLES */
 :root {
-    --base: #ffc600;
-    --spacing: 10px;
-    --blur: 10px;
+    --base: #f4b225;
+    --spacing: 0.5em;
+    --blur: 0.5em;
 }
+
+/* MAIN PART */
 
 body {
-    text-align: center;
-    background: #193549;
-    font-family: 'Lucida Sans', Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 50px; 
-    color: white;
+    background:#0015b1;
 }
 
+.container {
+    text-align: center;
+    background: #0015b1;
+    font-family: 'Lucida Sans', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.5em; 
+    color: cornsilk;
+}
+
+.title {
+ width: 70%;
+ margin: auto;
+ margin-bottom: 1em;
+}
+
+.base-color{
+    border-radius: 0.5em;
+}
 .controls {
-    margin-bottom: 50px;
+    margin-bottom: 1em;
 }
 
 img {
@@ -23,7 +40,7 @@ img {
     filter: blur(var(--blur));
 }
 
-h1 {
+.h1 {
    color: var(--base); 
 }
 

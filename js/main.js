@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll('.controls input');
 
 function handleUpdate() {
-   const suffix = this.dataset.sizing || ''; 
+   const suffix = this.dataset.sizing || ''; // '' => allows to dynamically change the color of the word "javascript"
    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
 }
 
