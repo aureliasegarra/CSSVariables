@@ -2,6 +2,9 @@
 
 ## Create an interface that allows you to play with css variables using javascript.
 
+## Illustration
+![screenshot](image/screenshot.png)
+
 ## Language
 - html5
 - css3
